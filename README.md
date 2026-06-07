@@ -6,6 +6,8 @@ Built by a professional hardware design engineer with 13 years of real-world exp
 across digital, analog, high-speed, and power supply domains.
 
 ## 📁 Repository Structure
+
+```
 ProtoCraft-Electronics/
 │
 ├── ESP32-Projects/               ← YouTube/IoT projects with firmware + hardware
@@ -34,6 +36,7 @@ ProtoCraft-Electronics/
 │       └── README.md
 │
 └── Reference-Designs/            ← General hardware references and templates
+```
 
 ## 🚀 Getting Started
 
