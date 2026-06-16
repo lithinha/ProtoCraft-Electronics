@@ -21,5 +21,5 @@ See the included reference images (`ESP32_IO_SW_01.png`, etc.) for the circuit l
 
 ## Files
 
-- `GPIO_Switch_00.ino` — Arduino sketch for the ESP32
-- `*.png` — circuit/reference images
+- `firmware/GPIO_Switch_00.ino` — Arduino sketch for the ESP32
+- `hardware/*.png` — circuit/reference images
