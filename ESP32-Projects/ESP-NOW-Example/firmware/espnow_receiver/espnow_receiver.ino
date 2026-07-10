@@ -10,7 +10,7 @@
 #include <esp_now.h>
 #include <WiFi.h>
 
-#define LED_PIN 2
+#define LED_PIN 21
 
 typedef struct struct_message {
   bool ledState;

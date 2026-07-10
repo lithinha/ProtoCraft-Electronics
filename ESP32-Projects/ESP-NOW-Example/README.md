@@ -9,8 +9,8 @@ each other — react at the same instant. No WiFi network, no pairing, no router
 | Board | Component | GPIO | Notes |
 |---|---|---|---|
 | Transmitter | Switch | GPIO 4 | `INPUT_PULLUP` — other leg of switch to GND, no external resistor needed |
-| Receiver 1 | LED | GPIO 2 | LED + ~220Ω resistor to GND |
-| Receiver 2 | LED | GPIO 2 | Identical wiring to Receiver 1 — same sketch flashed to both boards |
+| Receiver 1 | LED | GPIO 21 | LED + ~220Ω resistor to GND |
+| Receiver 2 | LED | GPIO 21 | Identical wiring to Receiver 1 — same sketch flashed to both boards |
 
 No MAC address hardcoding required — the sender uses the ESP-NOW broadcast
 address (`FF:FF:FF:FF:FF:FF`), so both receivers pick up the same packet
