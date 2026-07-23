@@ -102,7 +102,8 @@ void savePeerMac(const char *key, uint8_t *mac) {
 
 void handleRoot() {
   uint8_t ownMac[6];
-  WiFi.macAddress(ownMac);
+  WiFi.softAPmacAddress(ownMac); // WiFi.macAddress() reads the STA interface, which is never
+                                  // brought up in WIFI_AP mode — use the AP interface's MAC instead
 
   // Pre-fill with whatever is already saved, so reconfiguring shows current values
   uint8_t existing0[6], existing1[6];
@@ -167,7 +168,7 @@ void handleReboot() {
 
 void startConfigMode() {
   uint8_t ownMac[6];
-  WiFi.macAddress(ownMac);
+  WiFi.softAPmacAddress(ownMac);
   String ssid = "ProtoCraft-Config-" + macToString(ownMac).substring(12); // last 2 bytes
 
   WiFi.mode(WIFI_AP);
