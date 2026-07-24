@@ -20,6 +20,12 @@ ProtoCraft-Electronics/
 │       ├── hardware/
 │       └── README.md
 │
+├── STM32-Projects/               ← STM32 dev-board tutorials and firmware
+│   └── Nucleo-G070RB-GetStarted/
+│       ├── firmware/
+│       ├── hardware/
+│       └── README.md
+│
 ├── Power-Supply-Designs/         ← Pure hardware designs, no firmware
 │   ├── TPS543021-Buck-Converter/
 │   │   ├── schematic.pdf
