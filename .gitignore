@@ -87,3 +87,6 @@ venv/
 # Office files (keep PDFs, ignore temp files)
 ~$*.xlsx
 ~$*.docx
+
+# Local-only, not for the public repo
+CLAUDE.md
